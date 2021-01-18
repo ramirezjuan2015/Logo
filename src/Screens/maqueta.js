@@ -46,6 +46,7 @@ const styles = StyleSheet.create({
     opacityStyle: {
         marginRight: 10,
         marginLeft: 10,
+        marginTop: 5,
     }
 });
 

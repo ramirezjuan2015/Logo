@@ -9,10 +9,12 @@ const GuardarLocacion = ({ navigation }) => {
     const { state, got } = useContext(locContext);
     const _id = navigation.getParam('animalId');
     const animals = state.filter(l => l.animalId === _id);
+    const locationId = animals.markers
 
-    console.log('state', state)
+    console.log('state', state);
     console.log(animals);
-    console.log(_id)
+    //console.log(_id);
+    console.log(locationId)
 
     const { container, opacityStyle } = style
 
